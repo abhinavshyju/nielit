@@ -1,0 +1,47 @@
+https://cybershikshaa.azurefd.net/#/quiz/c/4/l/240/q/5
+
+
+    
+POST /v2/track HTTP/2
+Host: dc.services.visualstudio.com
+Content-Length: 624
+Sec-Ch-Ua: "Not-A.Brand";v="99", "Chromium";v="124"
+Content-Type: application/json
+Sec-Ch-Ua-Mobile: ?0
+Sdk-Context: appId
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6367.118 Safari/537.36
+Sec-Ch-Ua-Platform: "Windows"
+Accept: */*
+Origin: https://cybershikshaa.azurefd.net
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://cybershikshaa.azurefd.net/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Priority: u=1, i
+
+[{"time":"2024-05-29T05:38:22.769Z","iKey":"543ff381-8675-4137-b679-371589cd7428","name":"Microsoft.ApplicationInsights.543ff38186754137b679371589cd7428.Metric","tags":{"ai.user.id":"SAoxU","ai.session.id":"jeG0t","ai.device.id":"browser","ai.device.type":"Browser","ai.operation.name":"/","ai.operation.id":"be11ec6f9bbd4056814653eebde93548","ai.internal.sdkVersion":"javascript:2.7.4"},"data":{"baseType":"MetricData","baseData":{"ver":2,"metrics":[{"name":"PageVisitTime","kind":0,"value":181361,"count":1,"min":181361,"max":181361}],"properties":{"PageName":"4. Check your knowledge","PageUrl":"/quiz/c/4/l/240/q/5"}}}}]
+
+
+
+POST /v2/track HTTP/2
+Host: dc.services.visualstudio.com
+Content-Length: 692
+Sec-Ch-Ua: "Not-A.Brand";v="99", "Chromium";v="124"
+Content-Type: application/json
+Sec-Ch-Ua-Mobile: ?0
+Sdk-Context: appId
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6367.118 Safari/537.36
+Sec-Ch-Ua-Platform: "Windows"
+Accept: */*
+Origin: https://cybershikshaa.azurefd.net
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://cybershikshaa.azurefd.net/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Priority: u=4, i
+
+[{"time":"2024-05-29T05:42:04.990Z","iKey":"543ff381-8675-4137-b679-371589cd7428","name":"Microsoft.ApplicationInsights.543ff38186754137b679371589cd7428.RemoteDependency","tags":{"ai.session.id":"jeG0t","ai.device.id":"browser","ai.device.type":"Browser","ai.internal.sdkVersion":"javascript:1.0.21","ai.user.id":"SAoxU","ai.operation.id":"WiPws","ai.operation.name":"/"},"data":{"baseType":"RemoteDependencyData","baseData":{"id":"|WiPws.c8Dwd","ver":2,"name":"POST /api/v1/quizzes/5/answer","resultCode":"200","duration":"00:02:41.568","success":true,"data":"POST /api/v1/quizzes/5/answer","target":"cybershikshaa.azurefd.net | cid-v1:6a533025-192b-462d-9c14-5a6d4c991108","type":"Ajax"}}}]
